@@ -17,7 +17,7 @@ img {
 
 .mag-img{
     height: 17px;
-    widows: 17px;
+    width: 17px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -50,10 +50,14 @@ img {
     border-width: 1px;
     border-style: solid;
     border-color: #dfe1e5;
-    background-color: tranbsparent;
+    background-color: transparent;
     height: 44px;
     width: 482px;
     margin: 10px auto;
+}
+
+.main-field-border:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
 }
 
 .mid-button {
@@ -70,4 +74,10 @@ img {
     color: #5F6368;
     line-height: 27px;
     height: 36px;
+ }
+ .mid-button:hover{
+     box-shadow: 0 1px 1px rgba(0,0,0,.1);
+     background-color: #f8f8f8;
+     border: 1px solid #c6c6c6;
+     color: #222;
  }
